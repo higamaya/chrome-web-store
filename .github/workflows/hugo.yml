@@ -1,0 +1,26 @@
+name: Hugo
+on:
+  push:
+    branches: [main]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          submodules: true
+          fetch-depth: 0
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: latest
+          extended: true
+      - name: Run Hugo
+        run: hugo
+      - name: Commit docs
+        run: |
+          git config --local user.name "${{ github.event.pusher.name }}"
+          git config --local user.email "${{ github.event.pusher.email }}"
+          git add docs
+          git commit -m "update docs (published by GitHub Pages)"
+          git push
