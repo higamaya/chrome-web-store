@@ -1,0 +1,23 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Higama-ya"
+publishDir = "docs"
+theme = "ronu-hugo-theme"
+
+[params]
+  description = "Higama-ya's website for Chrome Web Store"
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "Privacy Policy"
+  url = "/privacy-policy/"
+  weight = 2
+
+[author]
+  name = "Mitsunobu Yoneda"
+  twitterURL = "https://twitter.com/higama_ya"
+  email = "support@higamaya.com"
