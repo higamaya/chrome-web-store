@@ -20,6 +20,8 @@ jobs:
           extended: true
       - name: Run Hugo
         run: hugo
+      - name: Copy CNAME
+        run: cp CNAME docs/
       - name: Commit docs
         run: |
           git config --local user.name "${{ github.event.pusher.name }}"
