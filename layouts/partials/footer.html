@@ -1,0 +1,5 @@
+<footer>
+  {{ with .Site.Author.github_url }} | <a href="{{ . }}">GitHub</a> {{ end }}
+  {{ with .Site.Author.twitter_url }} | <a href="{{ . }}">Twitter</a> {{ end }}
+  {{ with .Site.Author.email }} | {{ . }} {{ end }} |
+</footer>
