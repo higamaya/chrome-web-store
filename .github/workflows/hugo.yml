@@ -12,7 +12,6 @@ jobs:
       - name: Switch to `github-pages` branch, and rebase it on top of `origin/main`
         run: |
           git switch -c github-pages
-          git push --force --set-upstream origin github-pages
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
@@ -28,4 +27,4 @@ jobs:
           git config --local user.email "${{ github.event.pusher.email }}"
           git add docs
           git commit -m "update docs (published by GitHub Pages)"
-          git push
+          git push --force --set-upstream origin github-pages
