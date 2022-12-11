@@ -8,8 +8,11 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          submodules: true
           fetch-depth: 0
+      - name: Switch to `github-pages` branch, and rebase it on top of `origin/main`
+        run: |
+          git switch -c github-pages
+          git push --force --set-upstream origin github-pages
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
