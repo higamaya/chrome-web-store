@@ -2,6 +2,11 @@ baseURL = "https://chrome-web-store.higamaya.com/"
 languageCode = "en-us"
 title = "Higama-ya CWS"
 publishDir = "docs"
+enableRobotsTXT = true
+
+[sitemap]
+changefreq = 'monthly'
+filename = 'sitemap.xml'
 
 [params]
 description = "Higama-ya's website for Chrome Web Store"
