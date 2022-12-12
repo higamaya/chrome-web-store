@@ -1,6 +1,7 @@
 baseURL = "https://chrome-web-store.higamaya.com/"
 languageCode = "en-us"
 title = "Higama-ya CWS"
+copyright = "© 2022 Higama-ya"
 publishDir = "docs"
 enableRobotsTXT = true
 
