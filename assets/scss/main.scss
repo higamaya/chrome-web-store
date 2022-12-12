@@ -3,15 +3,23 @@ header {
   align-items: baseline;
   flex-wrap: wrap;
   margin-block-end: 0.5em;
+  font-size: 1.8em;
+
+  .header__logo {
+    margin: 0;
+    box-sizing: content-box;
+    width: 1em;
+    height: 1em;
+    transform: translateY(0.15em);
+  }
 
   .header__title {
-    font-size: 1.5em;
     font-weight: bold;
-    margin-inline-end: 0.5em;
+    margin-inline: 0.3em;
   }
 
   .header__description {
-    font-size: 0.8em;
+    font-size: 0.5em;
   }
 }
 

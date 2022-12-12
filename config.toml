@@ -6,6 +6,12 @@ publishDir = "docs"
 [params]
 description = "Higama-ya's website for Chrome Web Store"
 
+[params.logo]
+url = "/images/logo_192x192.png"
+type = "image/png"
+width = 192
+height = 192
+
 [author]
 name = "Mitsunobu Yoneda"
 github_url = "https://github.com/higamaya"
