@@ -4,20 +4,20 @@ title = "Higama-ya"
 publishDir = "docs"
 
 [params]
-  description = "Higama-ya's website for Chrome Web Store"
+description = "Higama-ya's website for Chrome Web Store"
 
 [[menu.main]]
-  name = "Home"
-  url = "/"
-  weight = 1
+name = "Home"
+url = "/"
+weight = 1
 
 [[menu.main]]
-  name = "Privacy Policy"
-  url = "/privacy-policy/"
-  weight = 2
+name = "Privacy Policy"
+url = "/privacy-policy/"
+weight = 2
 
 [author]
-  name = "Mitsunobu Yoneda"
-  github_url = "https://github.com/higamaya"
-  twitter_url = "https://twitter.com/higama_ya"
-  email = "support@higamaya.com"
+name = "Mitsunobu Yoneda"
+github_url = "https://github.com/higamaya"
+twitter_url = "https://twitter.com/higama_ya"
+email = "support@higamaya.com"

@@ -2,13 +2,14 @@
   <h1>{{ .Site.Title }}</h1>
 
   {{ with .Site.Params.description }}
-  <p> {{ . }} </p>
+    <p>{{ . }}</p>
   {{ end }}
+
 
   <nav>
     <ul>
       {{ range .Site.Menus.main }}
-      <li><a href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
+        <li><a href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
       {{ end }}
     </ul>
   </nav>

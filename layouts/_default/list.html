@@ -1,11 +1,12 @@
 {{ define "main" }}
-	{{ $paginator := .Paginate (.Pages) }}
+  {{ $paginator := .Paginate (.Pages) }}
 
-	{{ range $paginator.Pages }}
-		<h1>{{ .Title }}{{ if .Draft }} ::Draft{{ end }}</h1>
-		<p>{{ .Description | plainify | safeHTML }}
-		<a href="{{ .Permalink }}"> Read More.</a></p>
-	{{ end }}
+  {{ range $paginator.Pages }}
+    <h1>{{ .Title }}{{ if .Draft }}::Draft{{ end }}</h1>
+    <p>
+      {{ .Description | plainify | safeHTML }} <a href="{{ .Permalink }}"> Read More.</a>
+    </p>
+  {{ end }}
 
-	{{ partial "pagination.html" . }}
+  {{ partial "pagination.html" . }}
 {{ end }}
