@@ -1,0 +1,22 @@
+{
+  "name": "chrome-web-store",
+  "version": "1.0.0",
+  "description": "Higama-ya's website for Chrome Web Store",
+  "private": true,
+  "author": "Higama-ya",
+  "license": "MIT",
+  "homepage": "https://chrome-web-store.higamaya.com/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/higamaya/chrome-web-store.git"
+  },
+  "bugs": {
+    "url": "https://github.com/higamaya/chrome-web-store/issues"
+  },
+  "scripts": {
+    "start": "hugo server"
+  },
+  "devDependencies": {
+    "hugo-extended": "^0.108.0"
+  }
+}
