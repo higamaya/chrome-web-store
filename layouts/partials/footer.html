@@ -1,5 +1,6 @@
 <footer>
-  {{ with .Site.Author.github_url }}| <a href="{{ . }}">GitHub</a>{{ end }}
-  {{ with .Site.Author.twitter_url }}| <a href="{{ . }}">Twitter</a>{{ end }}
-  {{ with .Site.Author.email }}| {{ . }}{{ end }} |
+  {{ with .Site.Author.github_url }}<span class="footer__separator"> | </span><a href="{{ . }}">GitHub</a>{{ end }}
+  {{ with .Site.Author.twitter_url }}<span class="footer__separator"> | </span><a href="{{ . }}">Twitter</a>{{ end }}
+  {{ with .Site.Author.email }}<span class="footer__separator"> | </span><span>{{ . }}</span>{{ end }}
+  <span class="footer__separator"> | </span>
 </footer>

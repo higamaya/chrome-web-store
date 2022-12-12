@@ -1,10 +1,16 @@
 baseURL = "https://chrome-web-store.higamaya.com/"
 languageCode = "en-us"
-title = "Higama-ya"
+title = "Higama-ya CWS"
 publishDir = "docs"
 
 [params]
 description = "Higama-ya's website for Chrome Web Store"
+
+[author]
+name = "Mitsunobu Yoneda"
+github_url = "https://github.com/higamaya"
+twitter_url = "https://twitter.com/higama_ya"
+email = "support@higamaya.com"
 
 [[menu.main]]
 name = "Home"
@@ -12,12 +18,11 @@ url = "/"
 weight = 1
 
 [[menu.main]]
-name = "Privacy Policy"
-url = "/privacy-policy/"
+name = "Items"
+url = "/items/"
 weight = 2
 
-[author]
-name = "Mitsunobu Yoneda"
-github_url = "https://github.com/higamaya"
-twitter_url = "https://twitter.com/higama_ya"
-email = "support@higamaya.com"
+[[menu.main]]
+name = "Privacy Policy"
+url = "/privacy-policy/"
+weight = 3

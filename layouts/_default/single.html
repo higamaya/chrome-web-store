@@ -1,5 +1,6 @@
 {{ define "main" }}
-  <h1>{{ .Title }}</h1>
-  <time datetime="{{ .Date }}" itemprop="datePublished">{{ .Date.Format "January 2, 2006" }}</time>
-  {{ .Content }}
+  <main>
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+  </main>
 {{ end }}

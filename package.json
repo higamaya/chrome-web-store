@@ -14,7 +14,7 @@
     "url": "https://github.com/higamaya/chrome-web-store/issues"
   },
   "scripts": {
-    "start": "hugo server"
+    "start": "hugo server --ignoreCache"
   },
   "devDependencies": {
     "hugo-extended": "^0.108.0",

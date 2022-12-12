@@ -1,0 +1,7 @@
+<header>
+  <span class="header__title">{{ .Site.Title }}</span>
+
+  {{ with .Site.Params.description }}
+    <span class="header__description">{{ . }}</span>
+  {{ end }}
+</header>
