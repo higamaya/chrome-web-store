@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://chrome-web-store.higamaya.com/"
 languageCode = "en-us"
 title = "Higama-ya"
 publishDir = "docs"
