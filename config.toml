@@ -4,6 +4,7 @@ title = "Higama-ya CWS"
 copyright = "© 2022 Higama-ya"
 publishDir = "docs"
 enableRobotsTXT = true
+enableGitInfo  = true
 
 [sitemap]
 changefreq = 'monthly'
