@@ -1,6 +1,8 @@
 ---
 title: Privacy Policy
-description: Privacy Policy applicable to the items published by Higama-ya on Chrome Web Store
+description: Privacy Policy applicable to the products published by Higama-ya on Chrome Web Store
 ---
 
-TODO
+## User Data Policy
+
+

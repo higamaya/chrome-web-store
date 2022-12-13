@@ -30,8 +30,8 @@ url = "/"
 weight = 1
 
 [[menu.main]]
-name = "Items"
-url = "/items/"
+name = "Products"
+url = "/products/"
 weight = 2
 
 [[menu.main]]

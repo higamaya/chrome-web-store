@@ -6,8 +6,8 @@ layout: single
 
 ## Purpose of this site
 
-Higama-ya publishes several items on Chrome Web Store.
-This site provides a list of the items and the privacy policy that applies to them.
+Higama-ya publishes several products on Chrome Web Store.
+This site provides a list of the products and the privacy policy that applies to them.
 
 ## What is Higama-ya
 
