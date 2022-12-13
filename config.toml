@@ -3,8 +3,9 @@ languageCode = "en-us"
 title = "Higama-ya CWS"
 copyright = "© 2022 Higama-ya"
 publishDir = "docs"
+enableEmoji = true
+enableGitInfo = true
 enableRobotsTXT = true
-enableGitInfo  = true
 
 [sitemap]
 changefreq = 'monthly'
