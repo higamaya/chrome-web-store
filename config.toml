@@ -6,6 +6,7 @@ publishDir = "docs"
 enableEmoji = true
 enableGitInfo = true
 enableRobotsTXT = true
+googleAnalytics = "G-E2ED8MJ2PK"
 
 [sitemap]
 changefreq = 'monthly'

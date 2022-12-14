@@ -1,7 +1,39 @@
 <footer>
-  {{ with .Site.Author.github_url }}<span class="footer__separator"> | </span><a href="{{ . }}">GitHub</a>{{ end }}
-  {{ with .Site.Author.twitter_url }}<span class="footer__separator"> | </span><a href="{{ . }}">Twitter</a>{{ end }}
-  {{ with .Site.Author.email }}<span class="footer__separator"> | </span><span>{{ . }}</span>{{ end }}
-  {{ with .Site.Copyright }}<span class="footer__separator"> | </span><span>{{ . }}</span>{{ end }}
-  <span class="footer__separator"> | </span>
+  <div>
+    {{ with .Site.Copyright }}<span class="footer__separator"> | </span><span>{{ . }}</span>{{ end }}
+    {{ with .Site.Author.github_url }}<span class="footer__separator"> | </span><a href="{{ . }}">GitHub</a>{{ end }}
+    {{ with .Site.Author.twitter_url }}<span class="footer__separator"> | </span><a href="{{ . }}">Twitter</a>{{ end }}
+    {{ with .Site.Author.email }}<span class="footer__separator"> | </span><span>{{ . }}</span>{{ end }}
+    <span class="footer__separator"> | </span>
+  </div>
+  <div>
+    <span class="footer__separator"> | </span>
+    powered by <a href="https://gohugo.io/" title="Hugo">Hugo</a> and
+    <a href="https://oxal.org/projects/sakura/" title="sakura">sakura</a>
+    {{ with .Site.GoogleAnalytics -}}
+      <span class="footer__separator"> | </span>using
+      <span class="google-analytics">
+        <a href="#" onclick="return false;" title="Google Analytics">Google Analytics</a>
+        <dialog class="google-analytics__statement">
+          <p>
+            This site uses Google Analytics to monitor its traffic.<br />
+            For more information about Google Analytics, see:
+          </p>
+          <ul>
+            <li>
+              <a href="https://www.google.com/policies/privacy/partners/" title="Google's Privacy & Terms"
+                >Google's Privacy & Terms</a
+              >
+            </li>
+            <li>
+              <a href="https://support.google.com/analytics/answer/6004245" title="Safeguarding your data"
+                >Safeguarding your data</a
+              >
+            </li>
+          </ul>
+        </dialog>
+      </span>
+    {{ end }}
+    <span class="footer__separator"> | </span>
+  </div>
 </footer>

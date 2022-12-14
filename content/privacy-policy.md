@@ -29,6 +29,13 @@ About Chrome Sync, please refer to the following link:
 
 https://support.google.com/chrome/answer/185277
 
+## Google Analytics
+
+This site uses Google Analytics to monitor its traffic, but the products published on Chrome Web Store do not.
+Sorry for the confusion, but please be careful not to misunderstand.
+
+Again, the products published on Chrome Web Store do not use Google Analytics.
+
 ## Applies to
 
 Please refer to [Products](/products/) page to confirm specific products covered by the privacy policy mentioned on this page.

@@ -90,3 +90,18 @@ h6 {
   height: 1em;
   vertical-align: middle;
 }
+
+.google-analytics {
+  .google-analytics__statement {
+    display: none;
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  &:focus-within {
+    .google-analytics__statement {
+      display: block;
+    }
+  }
+}
