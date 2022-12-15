@@ -10,7 +10,8 @@ In this page, we describe the privacy policy that applies to the products publis
 ## User Data
 
 The products published by Higama-ya on Chrome Web Store do not handle any personal or sensitive user data.
-In addition, the products do not collect, transmit, use or share any user data in a way that Higama-ya can access.
+For that matter, the products do not even collect, transmit, use, or share any user data.
+This means that Higama-ya will never have access to user data.
 
 ## Google's Privacy Policy
 
