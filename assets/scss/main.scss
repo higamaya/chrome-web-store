@@ -95,6 +95,9 @@ h6 {
   .google-analytics__statement {
     display: block;
     position: fixed;
+    box-sizing: border-box;
+    max-width: 90%;
+    width: 30em;
     top: 100lvh;
     visibility: hidden;
     opacity: 0;
