@@ -18,5 +18,6 @@
   "search.exclude": {
     "**/_gen": true,
     "docs": true
-  }
+  },
+  "cSpell.words": ["Bocchi", "changefreq", "Higama", "Mitsunobu", "peaceiris", "Yoneda"]
 }
