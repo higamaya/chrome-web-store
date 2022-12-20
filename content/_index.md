@@ -12,7 +12,7 @@ This site provides a list of the products and the privacy policy that applies to
 ## Who is Higama-ya
 
 Higama-ya is a business name for me, Mitsunobu Yoneda, a software developer in Japan.
-I am the only one who belongs to Higama-ya, it's called _Bocchi_ :joy: in Japanese.
+I am the only one who belongs to Higama-ya, it's called _Bocchi_ :sob: in Japanese.
 
 ## Thanks
 
