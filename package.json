@@ -1,7 +1,7 @@
 {
   "name": "chrome-web-store",
   "version": "1.0.0",
-  "description": "Higama-ya's website for Chrome Web Store",
+  "description": "Higama-ya's website for Chrome Web Store.",
   "private": true,
   "author": "Higama-ya",
   "license": "MIT",
