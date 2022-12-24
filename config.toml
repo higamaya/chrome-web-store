@@ -2,42 +2,48 @@ baseURL = "https://chrome-web-store.higamaya.com/"
 languageCode = "en-us"
 title = "Higama-ya CWS"
 copyright = "© 2022 Higama-ya"
+theme = "minimal-hugo"
 publishDir = "docs"
 enableEmoji = true
 enableGitInfo = true
-enableRobotsTXT = true
 googleAnalytics = "G-E2ED8MJ2PK"
-
-[sitemap]
-changefreq = 'monthly'
-filename = 'sitemap.xml'
 
 [params]
 description = "Higama-ya's website for Chrome Web Store"
+images = ["images/logo_614x614.png"]
 
-[params.logo]
-url = "/images/logo_192x192.png"
-type = "image/png"
-width = 192
-height = 192
+[params.theme]
+logo = "images/logo_192x192.png"
+externalLinkInNewTab = false
 
 [author]
 name = "Mitsunobu Yoneda"
-github_url = "https://github.com/higamaya"
-twitter_url = "https://twitter.com/higama_ya"
 email = "support@higamaya.com"
+
+[social]
+github = "higamaya"
+twitter = "higama_ya"
+
+[sitemap]
+changefreq = "monthly"
+filename = "sitemap.xml"
+
+[taxonomies]
 
 [[menu.main]]
 name = "Home"
+pre = "<i class='fa-solid fa-house'></i>"
 url = "/"
 weight = 1
 
 [[menu.main]]
 name = "Products"
+pre = "<i class='fa-solid fa-wrench'></i>"
 url = "/products/"
 weight = 2
 
 [[menu.main]]
 name = "Privacy Policy"
+pre = "<i class='fa-solid fa-shield-halved'></i>"
 url = "/privacy-policy/"
 weight = 3

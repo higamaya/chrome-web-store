@@ -9,6 +9,7 @@ jobs:
       - uses: actions/checkout@v3
         with:
           fetch-depth: 0
+          submodules: true
       - name: Switch to `github-pages` branch, and rebase it on top of `origin/main`
         run: git switch -c github-pages
       - name: Setup Hugo
