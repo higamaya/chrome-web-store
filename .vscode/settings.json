@@ -19,5 +19,13 @@
     "**/_gen": true,
     "docs": true
   },
-  "cSpell.words": ["Bocchi", "changefreq", "Higama", "Mitsunobu", "peaceiris", "Yoneda"]
+  "cSpell.words": [
+    "Bocchi",
+    "changefreq",
+    "Higama",
+    "higamaya",
+    "Mitsunobu",
+    "peaceiris",
+    "Yoneda"
+  ]
 }
