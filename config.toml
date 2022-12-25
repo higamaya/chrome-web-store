@@ -10,7 +10,7 @@ googleAnalytics = "G-E2ED8MJ2PK"
 
 [params]
 description = "Higama-ya's website for Chrome Web Store"
-images = ["images/logo_614x614.png"]
+images = ["images/icatch_1200x630.png"]
 
 [params.theme]
 logo = "images/logo_192x192.png"
